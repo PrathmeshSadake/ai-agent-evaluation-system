@@ -8,9 +8,11 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "deepeval>=4.3.2",
     "dotenv>=0.9.9",
     "langchain>=1.4.7",
     "langchain-openai>=1.7.3",
+    "textual>=8.2.8",
 ]
 
 [project.scripts]
